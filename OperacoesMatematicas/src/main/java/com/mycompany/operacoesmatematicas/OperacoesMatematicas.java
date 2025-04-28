@@ -34,7 +34,7 @@ public class OperacoesMatematicas {
 
         //Área de uma circunferência
         double r = 5.0;
-        double AreaCirculo = r*r*3.14;
+        double AreaCirculo = r ** 2 * 3.14;
         
         //Média
         double Var1 = 2.5;
