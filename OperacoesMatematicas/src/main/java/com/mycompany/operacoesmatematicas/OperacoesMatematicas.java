@@ -40,7 +40,7 @@ public class OperacoesMatematicas {
         double Var1 = 2.5;
         double Var2 = 6.7; 
         double Var3 = 9.4;
-        double Media =Var1 + Var2 + Var3/3;
+        double Media =(Var1 + Var2 + Var3)/3;
         
         //Numeros usados como exemplo
         double num1 = 16.5;
