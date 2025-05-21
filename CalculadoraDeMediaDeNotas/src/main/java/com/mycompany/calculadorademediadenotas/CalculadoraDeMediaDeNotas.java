@@ -32,6 +32,6 @@ public class CalculadoraDeMediaDeNotas {
         //Mostrando a média e se você passou ou não
         if(media>=7){System.out.println("Sua média é "+media+", parabéns você passou!");
         }else System.out.println("Sua média é "+media+", você não passou!");
-        scanner.close();
+        scanner.close();//Fechando o scanner
     }
 }
