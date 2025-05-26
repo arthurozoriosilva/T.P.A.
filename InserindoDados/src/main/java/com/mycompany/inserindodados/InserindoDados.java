@@ -27,7 +27,8 @@ public class InserindoDados {
         System.out.print("Digite seu peso:");
         float peso = scanner.nextFloat();
         //Mostrando as informações
-        System.out.println("Olá "+nome+", você nasceu em "+nascimento+" e atualmente esta no "+serie+" de "+curso+". E pesa "+peso+"kg com uma altura de "+altura+"m.");
-        scanner.close();
+        System.out.println("Olá "+nome+", você nasceu em "+nascimento+" e atualmente esta no "+serie+
+                           " de "+curso+". E pesa "+peso+"kg com uma altura de "+altura+"m.");
+        scanner.close();//Fechando o scanner
     }
 }
