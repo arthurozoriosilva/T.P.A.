@@ -15,6 +15,6 @@ public class ExerciciosSwing3 {
         double saldo=0,saldoReajustado=0;
         saldo =Integer.parseInt(JOptionPane.showInputDialog("Digite o valor do saldo: R$"));
         saldoReajustado=(saldo*1.01);
-        JOptionPane.showMessageDialog(null,"O saldo reajusta é: R$"+saldoReajustado+".");
+        JOptionPane.showMessageDialog(null,"O saldo reajustado é: R$"+saldoReajustado+".");
     }
 }
